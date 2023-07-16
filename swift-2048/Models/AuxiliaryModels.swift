@@ -60,6 +60,8 @@ enum ActionToken {
   }
 }
 
+
+
 /// A struct representing a square gameboard. Because this struct uses generics, it could conceivably be used to
 /// represent state for many other games without modification.
 struct SquareGameboard<T> {
