@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     let game = NumberTileGameViewController(dimension: 4, threshold: 2048)
       game.modalPresentationStyle = .fullScreen
     self.present(game, animated: false, completion: nil)
+      
   }
 }
 
